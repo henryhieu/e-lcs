@@ -1,0 +1,390 @@
+@charset "UTF-8";
+
+
+/**
+ * 共通
+ */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+dl,
+dt,
+dd,
+header,
+footer {
+  border: 0;
+  font-size: 14px;
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","HiraKakuProN-W3","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","helvetica","arial",sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  position: relative;
+  right: 0;
+}
+ul {
+  list-style: none;
+}
+img.pc {
+  display: inline;
+}
+img.sp {
+  display: none;
+}
+.fleft {
+  float: left;
+}
+.fright {
+  float: right;
+}
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.white-btn {
+  border: 3px solid #fff;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  line-height: 16px;
+  padding: 9px 19px;
+  text-align: center;
+  text-decoration: none;
+}
+.blue-btn {
+  border: 3px solid #2a7fff;
+  border-radius: 25px;
+  color: #2a7fff;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  line-height: 16px;
+  padding: 9px 19px;
+  text-align: center;
+  text-decoration: none;
+}
+.bluebig-btn {
+  border: 3px solid #2a7fff;
+  border-radius: 40px;
+  color: #2a7fff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  line-height: 16px;
+  padding: 18px 43px;
+  text-align: center;
+  text-decoration: none;
+}
+.blue-bg-btn {
+  background-color: #2a7fff;
+  border: 3px solid #2a7fff;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  line-height: 16px;
+  padding: 18px 43px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  img.pc {
+    display: none;
+  }
+  img.sp {
+    display: inline;
+  }
+  .blue-btn {
+    display: block;
+    font-size: 13px;
+    letter-spacing: 0.05rem;
+    padding: 9px 0;
+  }
+  .bluebig-btn {
+    display: block;
+    font-size: 13px;
+    letter-spacing: 0.05rem;
+    padding: 9px 0;
+  }
+  .blue-bg-btn {
+    display: block;
+    font-size: 13px;
+    letter-spacing: 0.05rem;
+    padding: 9px 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .white-btn {
+    font-size: 13px;
+    letter-spacing: 0.05rem;
+  }
+}
+
+/**
+ * ヘッダー
+ */
+.header_menu {
+  padding: 0 20px;
+}
+.search_menu {
+  padding: 20px 0;
+  width: 350px;
+}
+.search_keyword {
+  background-image: url(/resource/img/search.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 5px 10px 5px 30px;
+  width: 44%;
+}
+.input_keyword {
+  border: none;
+  font-size: 17px;
+}
+.menu {
+  display: inline-block;
+  width: 36%;
+}
+.menu_list{
+  background: #2A7FFF;
+  height: 100%;
+  position: fixed;
+  right: -540px;
+  text-align: center;
+  top: 0;
+  width: 500px;
+}
+.menu_list li {
+  font-size: 18px;
+  padding: 30px 0;
+}
+.menu_list li a {
+  color: #FFFFFF;
+  letter-spacing: 0.025rem;
+  text-decoration: none;
+}
+.menu_list li a:hover {
+  text-decoration: underline;
+}
+.menu_list li.home {
+  margin-top: 50px;
+}
+img.top_logo {
+  width: 134px;
+}
+img.menu {
+  width: 108px;
+}
+
+@media screen and (max-width: 767px) {
+  img.top_logo {
+    width: 67px;
+  }
+  img.menu {
+    width: 80px;
+  }
+  .search_keyword {
+    display: none;
+  }
+  .search_menu {
+    padding: 6px 0;
+    text-align: right;
+    width: auto;
+  }
+  .menu {
+    width: 100%;
+  }
+  .menu_list{
+    width: 225px;
+  }
+  .menu_list li a {
+    font-size: 12px;
+  }
+  .menu_list li {
+    line-height: 18px;
+    padding: 0;
+  }
+  .menu_list li:not(:first-child) {
+    margin-top: 25px;
+  }
+  .menu_list li.home {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  header {
+    padding: 5px;
+  }
+ .search_keyword {
+    float: left;
+    height: 35px;
+    margin-right: 10px;
+    padding: 0px 10px 0px 30px;
+    width: 47%;
+  }
+  .input_keyword {
+    width: 122px;
+  }
+  .menu {
+    float: right;
+    width: 100%;
+  }
+}
+
+/**
+ * フッター
+ */
+footer {
+  background-image: url(/resource/img/footer_bg.png);
+  padding: 50px 100px;
+}
+.footer {
+  margin: 0 auto;
+  max-width: 1164px;
+}
+.site_link {
+  font-family: 游ゴシック体;
+  width: 25%;
+}
+.attention {
+  font-weight: bold;
+}
+footer p {
+  padding: 5px 0;
+}
+footer a {
+  color: #FFFFFF;
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.sp_footer{
+  display: none;
+}
+.sns_icon:not(:first-child) {
+  margin-left: 10px;
+}
+.copy {
+  background-color: #FFFFFF;
+  color: #2A7FFF;
+  font-family: Cambria;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  padding: 20px 0;
+  text-align: center;
+}
+.sns ul {
+  display: table;
+  width: 250px;
+}
+.sns li {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+img.sns_icon {
+  width: 41px;
+}
+img.line {
+  width: 40px;
+}
+img.instagram {
+  width: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .site_link {
+    padding-bottom: 30px;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    padding: 30px 0px;
+  }
+  .site_link {
+    float: none;
+    padding: 0 0 0px 20px;
+    width: auto;
+  }
+  .hidden {
+    display: none;
+  }
+  .sp_footer{
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 35px;
+  }
+  .sp_footer li {
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    box-sizing:border-box;
+    float: left;
+    line-height: 14px;
+    padding: 15px 0 15px 20px;
+    width: 50%;
+  }
+  .sp_footer li.border {
+    border-right: 1px solid #FFFFFF;
+  }
+  .sp_footer li.bottom {
+    border-bottom: none;
+  }
+  footer a {
+    font-size: 12px;
+    letter-spacing: 0.01em;
+  }
+  footer p {
+    line-height: 14px;
+    padding: 0;
+  }
+  .foot_about,
+  .foot_effort {
+    padding-bottom: 20px;
+  }
+  .foot_member, .foot_plan,
+  .foot_news_category {
+    padding-top: 12px;
+  }
+  div.sns {
+    padding-left: 0;
+  }
+  .sns ul {
+    width: 100%;
+  }
+  .copy {
+    font-size: 11px;
+  }
+  img.sns_icon {
+    width: 40.5px;
+  }
+  img.instagram {
+    width: 50px;
+  }
+}

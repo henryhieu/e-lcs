@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+AddType application/x-httpd-php .html .htm
+AddType video/mp4 .mp4
+AddType video/ogg .ogv
+AddType video/webm .webm
+AddType video/quicktime .mov
+
+<Files ~ "\.inc$">
+deny from all
+</Files>

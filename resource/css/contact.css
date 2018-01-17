@@ -1,0 +1,228 @@
+.contact {
+  margin: 0 auto;
+  max-width: 780px;
+}
+.step {
+  padding: 80px 0 30px;
+  text-align: center;
+}
+.contact_message {
+  color: #666666;
+  font-size: 16px;
+  letter-spacing: 0.025rem;
+  line-height: 36px;
+  padding-bottom: 58px;
+  text-align: center;
+}
+.contact_message.thanks {
+  padding-bottom: 0;
+}
+.contact_attention {
+  border-top: 1px solid #dddddd;
+  color: #666666;
+  font-size: 16px;
+  letter-spacing: 0.025rem;
+  line-height: 36px;
+  padding-top: 59px;
+}
+.annotation {
+  display: inline-block;
+  margin-top: 5px;
+}
+.privacy_message {
+  border-bottom: 1px solid #666666;
+  display: inline-block;
+  margin-top: 5px;
+}
+.privacy_message a {
+  color: #2A7FFF;
+  text-decoration: none;
+}
+.privacy_message a:hover {
+  text-decoration: underline;
+}
+td {
+  padding: 20px;
+  width: 540px;
+}
+td.name {
+  border: 1px solid #DDDDDD;
+  padding-right: 0px;
+  width: 240px;
+}
+h2.contact {
+  padding: 60px 0 28px;
+}
+.submit {
+  padding: 60px 0 121px;
+}
+button {
+  cursor: pointer;
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","HiraKakuProN-W3","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","helvetica","arial",sans-serif;
+}
+.contact input[type="radio"] {
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+.other {
+  margin-left: 40px;
+}
+.contact input[type="text"],
+.contact textarea {
+  border: 1px solid #DDDDDD;
+  border-radius: 16px;
+  color: #666666;
+  font-size: 16px;
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","HiraKakuProN-W3","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","helvetica","arial",sans-serif;
+  padding: 8px 20px;
+}
+.contact input[type="text"] {
+  height: 22px;
+  width: 458px;
+}
+.contact textarea {
+  height: 122px;
+  overflow: auto;
+  width: 458px;
+}
+.submit {
+  text-align: center;
+}
+.back_btn {
+  display: flex;
+}
+.pc_confirm {
+  width: 320px;
+}
+.sp_confirm {
+  display: none;
+}
+.required {
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+}
+img.step_img {
+  width: 100%;
+}
+img.required_img {
+  vertical-align: middle;
+  width: 50px;
+}
+img.pc_back {
+  width: 210px;
+}
+img.pc_confirm {
+  width: 320px;
+}
+img.sp_top {
+  width: 230px;
+}
+img.pc_submit {
+  width: 180px;
+}
+.box-error,
+.txt-error {
+  color: #f00;
+}
+@media screen and (max-width: 860px) {
+  .submit p {
+    float: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .back_btn {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .pc_confirm {
+    display: none;
+  }
+  .sp_confirm {
+    display: inline;
+    width: 260px;
+  }
+  .contact input[type="text"],
+  .contact textarea {
+    width: 85%;
+  }
+  .contact input[type="radio"] {
+    top: 0;
+  }
+  h2.contact {
+    line-height: 30px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+  }
+  p.step{
+    padding-bottom: 15px;
+    padding-top: 35px;
+  }
+  p.contact_message,
+  p.contact_attention {
+    font-size: 11px;
+    letter-spacing: 0.025rem;
+    line-height: 18px;
+  }
+  p.contact_attention {
+    padding-bottom: 0;
+    padding-top: 20px;
+  }
+  p.contact_message{
+    padding-bottom: 22px;
+  }
+  table {
+    margin-bottom: 1px;
+  }
+  td {
+    padding: 10px;
+    width: auto;
+  }
+  td.name {
+    width: auto;
+  }
+  .required_message {
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 0.025rem;
+    line-height: 18px;
+    margin-top: 14px;
+  }
+  .annotation {
+    font-size: 11px;
+  }
+  .privacy_message {
+    font-size: 11px;
+  }
+  .submit {
+    padding: 30px 0 80px;
+  }
+  img.step_img {
+    width: 280px;
+  }
+  img.required_img {
+    width: 32px;
+  }
+  img.sp_confirm {
+    height: 14px;
+    vertical-align: middle;
+    width: auto;
+  }
+  img.sp_submit {
+    height: 14px;
+    vertical-align: middle;
+    width: auto;
+  }
+  img.sp_back {
+    height: 14px;
+    vertical-align: middle;
+    width: auto;
+  }
+  img.sp_top {
+    height: 14px;
+    vertical-align: middle;
+    width: auto;
+  }
+}

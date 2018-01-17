@@ -1,0 +1,843 @@
+video {
+  min-height: 100px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+header {
+  background-image: url(/resource/img/inside_circle.png);
+  background-position: center -5px;
+  background-repeat: no-repeat;
+  height: 300px;
+  padding-top: 20px;
+}
+.content {
+  background-color: #ffffff;
+}
+h1 {
+  color: #FFFFFF;
+  font-size: 42px;
+  letter-spacing: 0.025rem;
+  text-align: center;
+}
+h1 span {
+  font-size: 24px;
+  letter-spacing: 0.025rem;
+}
+h1.sub_title {
+  line-height: 50px;
+  margin-top: -21px;
+  position: absolute;
+  top: 115px;
+  width: 100%;
+}
+.header_menu {
+  padding: 0 20px;
+}
+.breadcrumb {
+  left: 20px;
+  position: absolute;
+  top: 251px;
+}
+.breadcrumb li {
+  color: #FFFFFF;
+  font-size: 12px;
+  letter-spacing: 0.025rem;
+}
+.breadcrumb li:not(:first-child):before {
+  color: #FFFFFF;
+  content: "\f105";
+  font-family: FontAwesome;
+  padding: 0 10px;
+}
+.breadcrumb a {
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.main {
+  background-color: #FFFFFF;
+  color: #000000;
+  max-width: 1164px;
+  margin: -20px auto 0;
+  padding: 0 100px;
+}
+div.effort {
+  padding: 0 20px;
+}
+.question {
+  max-width: 779px;
+}
+h2 {
+  color: #2A7FFF;
+  font-size: 24px;
+  letter-spacing: 0.025rem;
+  padding: 25px 0;
+  text-align: center;
+}
+h2.greeting {
+  line-height: 24px;
+  padding-bottom: 46px;
+  padding-top: 89px;
+}
+h2.organization {
+  padding-top: 89px;
+}
+h2.role {
+  padding-bottom: 40px;
+  padding-top: 91px;
+}
+h2.access {
+  padding-bottom: 47px;
+  padding-top: 90px;
+}
+h2.member,
+h2.company {
+  padding-bottom: 40px;
+  padding-top: 120px;
+}
+h2.effort {
+  padding-bottom: 40px;
+  padding-top: 90px;
+}
+h2.pdca {
+  padding-bottom: 73px;
+  padding-top: 90px;
+}
+h2.feeds {
+  padding-bottom: 58px;
+  padding-top: 92px;
+}
+h2.feeds1,
+h2.feeds2 {
+  padding-bottom: 60px;
+  padding-top: 90px;
+}
+h2.year {
+  padding-bottom: 30px;
+  padding-top: 90px;
+}
+h2.question {
+  padding-bottom: 58px;
+  padding-top: 90px;
+}
+h3 {
+  color: #666666;
+  font-size: 18px;
+  letter-spacing: 0.025rem;
+}
+.sitemap div {
+  padding: 40px 0;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  border: 1px solid #DDDDDD;
+  color: #666666;
+  font-size: 16px;
+  letter-spacing: 0.025rem;
+  line-height: 24px;
+  padding: 30px;
+  vertical-align: middle;
+}
+.search td {
+  border: none;
+}
+.search .gsc-result .gs-title {
+  height: auto;  
+}
+.name {
+  background-color: #FFFBD5;
+  border: 1px #FFFFFF solid;
+  letter-spacing: 0.025rem;
+  line-height: 36px;
+  vertical-align: top;
+  width: 120px;
+}
+td.role {
+  background-color: #FFFBD5;
+  border: 1px #FFFFFF solid;
+}
+td.bg_blue {
+  background-color: #C3F6FF;
+}
+td.feed1_longitudinal {
+  width: 20px;
+}
+td.feed2_longitudinal {
+  text-align: center;
+  width: 16px;
+}
+.sp_table {
+  display: none;
+}
+.map {
+  height: 300px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+div.member p {
+  color: #666666;
+  font-size: 16px;
+  letter-spacing: 0.025rem;
+}
+div.link_btn {
+  padding: 117px 0 121px;
+  width: 100%;
+}
+.question div.link_btn {
+  padding: 10px 0 121px;
+}
+div.link_btn p {
+  text-align: center;
+}
+div.link_btn ul {
+  margin: 0 auto;
+  text-align: center;
+}
+div.link_btn li {
+  display: inline-block;
+  text-align: center;
+}
+div.link_btn li + li {
+  margin-left: 30px;
+}
+.message_greeting {
+  color: #666666;
+  display: table-cell;
+  font-size: 16px;
+  letter-spacing: 0.025em;
+  line-height: 36px;
+  vertical-align: middle;
+}
+.signature {
+  color: #666666;
+  font-size: 14px;
+  letter-spacing: 0.025em;
+  line-height: 24px;
+  padding-top: 20px;
+  text-align: right;
+}
+.signature img {
+  padding-top: 10px;
+}
+p.effort_img {
+  display: table-cell;
+}
+.effort_message {
+  color: #666666;
+  font-size: 16px;
+  letter-spacing: 0.025em;
+  line-height: 36px;
+}
+.effort_head {
+  color: #666666;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+}
+.s3e {
+  padding-top: 60px;
+}
+.message_3e,
+.message_zitsugen,
+.message_pdca,
+.message_effort {
+  color: #666666;
+  display: table-cell;
+  font-size: 16px;
+  letter-spacing: 0.025rem;
+  line-height: 36px;
+  padding-right: 50px;
+  vertical-align: top;
+}
+.message_3e {
+  padding-right: 33px;
+}
+.message_zitsugen {
+  padding-right: 36px;
+}
+.message_pdca {
+  padding-right: 27px;
+}
+div.zitsugen {
+  padding-top: 66px;
+}
+p.effort {
+  color: #666666;
+  display: table-cell;
+  font-size: 16px;
+}
+ul.followup,
+ul.admission {
+  padding: 0 100px;
+}
+ul.followup li,
+ul.admission li {
+  font-size: 14px;
+  letter-spacing: 0.025rem;
+  line-height: 24px;
+  padding: 15px 0;
+}
+ul.admission li {
+  padding-bottom: 87px;
+  padding-top: 59px;
+  width: 50%;
+}
+li.mark a:before {
+  content: url(/resource/img/mark.png);
+  padding-right: 10px;
+  vertical-align: sub;
+}
+li.mark a:hover {
+  text-decoration: underline;
+}
+ul.followup li a,
+ul.admission li a {
+  color: #666666;
+  text-decoration: none;
+}
+.pdf {
+  padding-left: 10px;
+}
+.question .message {
+  color: #666666;
+  font-size: 16px;
+  letter-spacing: 0.025rem;
+  line-height: 36px;
+  padding: 100px 0;
+  text-align: center;
+}
+.admission .message,
+.plan .message {
+  color: #666666;
+  font-size: 16px;
+  letter-spacing: 0.025rem;
+  line-height: 36px;
+  padding: 100px 0;
+}
+.admission div.link_btn {
+  padding-top: 0;
+}
+.plan .message,
+.admission .message {
+  padding-bottom: 0;
+  padding-top: 88px;
+}
+.question .message {
+  padding-bottom: 0;
+  padding-top: 89px;
+}
+.plan div.effort {
+  padding: 68px 0 0;
+}
+.sitemap h2 {
+  text-align: left;
+}
+.sitemap .about_site {
+    padding-bottom: 100px;
+}
+.sitemap p {
+  font-size: 16px;
+  padding-right: 30px;
+}
+.sitemap p.top {
+  padding-right: 0px;
+}
+.sitemap a {
+  color: #666666;
+  letter-spacing: 0.025rem;
+  text-decoration: none;
+}
+.sitemap a:hover {
+  text-decoration: underline;
+}
+.link_cate {
+  border-bottom: 1px solid #666666;
+}
+.ques,
+.ans {
+  padding-right: 5px;
+  text-align: right;
+  width: 10%;
+}
+p.main_effort {
+  padding-left: 30px;
+}
+p.text {
+  width: 85%;
+}
+div.question {
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+div.answer {
+  padding-bottom: 59px;
+}
+.text {
+  color: #666666;
+  font-size: 16px;
+  width: 89%;
+}
+.top {
+  margin-top: -80px
+}
+p.about_site_message {
+  color: #666666;
+  font-size: 16px;
+  letter-spacing: 0.025rem;
+  line-height: 36px;
+  padding: 90px 0;
+}
+.about_site p.message {
+  color: #666666;
+  font-size: 16px;
+  letter-spacing: 0.025rem;
+  line-height: 36px;
+  padding: 30px 0;
+}
+.about_site p.exception {
+  padding-bottom: 90px;
+}
+.name_sort {
+  margin-top: 20px;
+}
+.member .date {
+  margin-bottom: 15px;
+}
+.company_sort {
+  margin-top: 19px;
+}
+img.to_top {
+  width: 40px;
+}
+img.img_3e {
+  width: 580px;
+}
+img.zitsugen {
+  width: 580px;
+}
+img.message_pdca {
+  width: 582px;
+}
+img.effort_btn {
+  width: 240px;
+}
+img.plan_btn {
+  width: 240px;
+}
+img.followup_btn {
+  width: 210px;
+}
+img.question_btn {
+  width: 176px;
+}
+img.member_btn {
+  width: 260px;
+}
+img.about_btn {
+  width: 340px;
+}
+img.contact_btn {
+  width: 320px;
+}
+img.feeds_img {
+  width: 480px;
+}
+img.question_img {
+  vertical-align: middle;
+  width: 24px;
+}
+img.answer_img {
+  vertical-align: middle;
+  width: 25px;
+}
+
+@media screen and (max-width: 1164px) {
+  .main {
+    padding: 0 15px;
+  }
+  img.img_3e,
+  img.zitsugen,
+  img.pdca {
+    width: 520px;
+  }
+  br.br_del {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  img.img_3e,
+  img.zitsugen,
+  img.pdca {
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  img.img_3e,
+  img.zitsugen,
+  img.pdca {
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  video {
+    left: auto;
+    margin-left: -60px;
+    right: auto;
+    width: 1000px;
+  }
+  header {
+    background-image: none;
+    height: auto;
+    padding: 10px 0;
+  }
+  .header_menu {
+    padding: 15px;
+  }
+  h1 {
+    display: none;
+  }
+  .breadcrumb {
+    display: none;
+  }
+  h2 {
+    font-size: 18px;
+    text-align: left;
+  }
+  h2.greeting,
+  h2.organization,
+  h2.role,
+  h2.access,
+  h2.question,
+  h2.manage,
+  h2.effort,
+  h2.pdca,
+  h2.member,
+  h2.company,
+  h2.feeds,
+  h2.feeds1,
+  h2.feeds2,
+  h2.year,
+  h2.privacy {
+    line-height: 30px;
+    padding-bottom: 15px;
+    padding-top: 35px;
+  }
+  h3,
+  span.effort_head {
+    font-size: 13px;
+    letter-spacing: 0.025rem;
+    line-height: 18px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+  }
+  .sitemap h2 {
+    font-size: 13px;
+    letter-spacing: 0.025rem;
+    line-height: 18px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+  }
+  .sitemap div {
+    padding: 0;
+  }
+  .sitemap .link_cate {
+    padding: 0 0 20px;
+  }
+  .link_cate p {
+    font-size: 11px;
+    letter-spacing: 0.025rem;
+    line-height: 18px;
+  }
+  .link_cate p + p {
+    padding-top: 12px;
+  }
+  .s3e,
+  div.zitsugen,
+  .plan div.effort {
+    padding-top: 0;
+  }
+  .plan div.effort {
+    padding: 0 ;
+  }
+  p.effort_img {
+    padding-top: 20px;
+  }
+  .message_greeting,
+  .message_3e,
+  .message_zitsugen,
+  .message_pdca,
+  .message_effort,
+  .effort_message,
+  .plan div.message {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 0.025rem;
+    line-height: 18px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    width: 100%;
+  }
+  .signature {
+    font-size: 11px;
+    line-height: 18px;
+    padding-top: 10px;
+  }
+  .signature img {
+    height: 27px;
+    padding-top: 5px;
+  }
+  .plan div.message {
+    padding-bottom: 15px;
+    padding-top: 35px;
+  }
+  .plan div.effort p.effort {
+    font-size: 11px;
+    letter-spacing: 0.025rem;
+    line-height: 18px;
+  }
+  .admission .message,
+  .plan .message,
+  .question .message,
+  p.about_site_message {
+    font-size: 11px;
+    letter-spacing: 0.025rem;
+    line-height: 18px;
+  }
+  .question .message,
+  p.about_site_message {
+    padding-bottom: 15px;
+    padding-top: 35px;
+  }
+  .about_site p.message {
+    font-size: 11px;
+    letter-spacing: 0.025rem;
+    line-height: 18px;
+  }
+  .message_3e,
+  .message_zitsugen,
+  .message_pdca {
+    float: none;
+    width: 100%;
+  }
+  div.member p.name_sort,
+  div.member p.company_sort,
+  div.member p.date {
+    font-size: 11px;
+    letter-spacing: 0.025rem;
+    line-height: 18px;
+  }
+  p.effort_img {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  ul.followup li,
+  ul.admission li {
+    font-size: 13px;
+    letter-spacing: 0.025rem;
+    line-height: 18px;
+  }
+  ul.admission li + li {
+    margin-bottom: 20px;
+  }
+  li.mark a:before {
+    background: url(/resource/img/sp/mark.png) no-repeat;
+    background-size:contain;
+    content:" ";
+    display:inline-block;
+    height: 16px;
+    margin-bottom: 4px;
+    vertical-align: middle;
+    width: 16px;
+  }
+  .pc_table {
+    display: none;
+  }
+  .sp_table {
+    display: inline-table;
+  }
+  .sp_role_table,
+  .sp_plan_table {
+    margin-top: 30px;
+  }
+  table {
+    border: 1px solid #f1f1f1;
+  }
+  td {
+    border: 1px solid #f1f1f1;
+    display: block;
+    font-size: 11px;
+    letter-spacing: 0.025rem;
+    line-height: 18px;
+    padding: 10px;
+  }
+  .name {
+    line-height: 18px;
+    width: auto;
+  }
+  ul.followup,
+  ul.admission {
+    padding: 0;
+  }
+  div.link_btn {
+    padding: 40px 0 95px;
+    width: 100%;
+  }
+  div.link_btn ul {
+    width: 100%;
+  }
+  div.link_btn li {
+    display: block;
+  }
+  .top {
+    margin-top: -65px;
+  }
+  .link_cate p {
+    float: none;
+  }
+  .admission .message {
+    padding-bottom: 15px;
+    padding-top: 35px;
+  }
+  .ques,
+  .ans {
+    text-align: left;
+    width: auto;
+  }
+  .link_btn ul li {
+    margin: 0 0 15px!important;
+  }
+  p.effort {
+    display: block;
+    width: 100%;
+  }
+  p.feeds {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  p.main_effort {
+    margin-top: 25px;
+  }
+  p.main_effort {
+    padding-left: 0;
+  }
+  p.text {
+    width: 96%;
+  }
+  div.question {
+    padding-bottom: 25px;
+  }
+  div.answer {
+    padding-bottom: 29px;
+  }
+  .text {
+    font-size: 11px;
+    letter-spacing: 0.025rem;
+    line-height: 18px;
+  }
+  .about_site p.exception,
+  .about_site p.message {
+    padding-top: 0px;
+  }
+  img.member_btn {
+    height: 14px;
+    vertical-align: middle;
+    width: auto;
+  }
+  img.about_btn {
+    height: 14px;
+    vertical-align: middle;
+    width: auto;
+  }
+  img.effort_btn {
+    height: 14px;
+    vertical-align: middle;
+    width: auto;
+  }
+  img.plan_btn {
+    height: 14px;
+    vertical-align: middle;
+    width: auto;
+  }
+  img.followup_btn {
+    height: 14px;
+    vertical-align: middle;
+    width: auto;
+  }
+  img.question_btn {
+    height: 14px;
+    vertical-align: middle;
+    width: auto;
+  }
+  img.to_top {
+    width: 30px;
+  }
+  img.img_3e,
+  img.zitsugen,
+  img.pdca {
+    max-width: 440px;
+    width: 100%;
+  }
+  img.contact_btn {
+    height: 14px;
+    vertical-align: middle;
+    width: auto;
+  }
+  img.feeds_img {
+    max-width: 480px;
+    width: 100%;
+  }
+  img.question_img {
+    vertical-align: top;
+  }
+  img.answer_img {
+    vertical-align: top;
+  }
+  img.question_img,
+  img.answer_img {
+    width: 18px;
+  }
+}
+
+@media screen and (max-width: 604px) {
+  p.text {
+    width: 92%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  ul.admission li {
+    float: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .logo,
+  .search_menu {
+    width: 30%;
+  }
+  img.top_logo {
+    width: 100%;
+  }
+  img.menu {
+    width: 100%;
+  }
+  img.about_btn {
+    height: auto;
+    width: 90%;
+  }
+}
